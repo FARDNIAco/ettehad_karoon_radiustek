@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>fardnia_radius_report</RootNamespace>
+    <AssemblyName>fardnia_radius_report</AssemblyName>
+    <!-- خاموش کردن هشدار ناسازگاری نسخه پکیج تقویم شمسی با دات‌نت 8 -->
+    <NoWarn>NU1701</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="8.0.2" />
+    <PackageReference Include="PersianDatePickerWindowsFrom" Version="3.0.0" />
+  </ItemGroup>
+
+</Project>
